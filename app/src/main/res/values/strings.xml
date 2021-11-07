@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="feels_like">Ощущается как</string>
+    <string name="wind">Ветер</string>
+    <string name="humidity">Влажность</string>
+    <string name="air_pressure">Атм. давление</string>
+    <string name="format_celsius" >%1$d ℃</string>
+    <string name="format_meter_sec">%1$d м/с</string>
+    <string name="format_pressure">%1$d мм рт. ст.</string>
+    <string name="not_found">Not found %1$s</string>
+    <string name="format_percent" formatted="false">%1$d %%</string>
+    <string name="error">Что-то пошло не так</string>
+</resources>

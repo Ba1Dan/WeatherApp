@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_geo"
+        android:title="geo"
+        android:icon="@drawable/ic_arrow_geo"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"
+        tools:targetApi="o" />
+
+    <item android:id="@+id/menu_search"
+        android:title="search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"
+        tools:targetApi="o"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+
+</menu>
